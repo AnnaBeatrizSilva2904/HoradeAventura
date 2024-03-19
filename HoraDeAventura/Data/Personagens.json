@@ -1,0 +1,68 @@
+[
+    {
+        "Nome": "Finn",
+        "Descricao": "Finn o humano, protagonista da série Hora de Aventura. Finn um garoto de 17 anos, anda junto com seu amigo Jake procurando novas aventuras na terra de Ooo, lutando contra monstros e salvando vidas de pessoas inocentes",
+        "Categoria": [ "Personagens principais" ],
+        "Imagem": "\\img\\Personagens\\Finn.webp"
+    },
+    {
+        "Nome": "Jake o cão",
+        "Descricao": "Um dos personagens principais da série e anda acompanhando seu amigo Finn. Jake é considerado um cão mágico, embora mostre ser infantil às vezes, Jake é um personagem maduro e sempre dando conselhos ao seu amigo Finn ao longo da série",
+        "Categoria": [ "Personagens principais" ],
+        "Imagem":"\\img\\Personagens\\Jake.webp"
+    },
+    {
+        "Nome": "BMO",
+        "Descricao": "BMO, um vídeogame e computador criado por Moe, e que logo depois se tornou amigo de Finn e Jake",
+        "Categoria": [ "Personagens principais" ],
+        "Imagem":"\\img\\Personagens\\BMO.webp"
+    },
+    {
+        "Nome": "Princesa Jujuba",
+        "Descricao": "Princesa Jujuba é a encarnação do elemental de doce, além de ser a governante do Reino Doce tem um enorme amor pelos seus súditos doces",
+        "Categoria": [ "Reino Doce", "Princesas" ],
+        "Imagem":"\\img\\Personagens\\Jujuba.png"
+    },
+    {
+        "Nome": "Marceline",
+        "Descricao": "Considerada como a Rainha dos Vampiros, Marceline se torna amiga de Finn e Jake ao longo da série. Embora seja considerada uma vampira, Marceline não precisa se alimentar de sangue apenas de comidas que tenham a cor vermelha",
+        "Categoria": [ "Outros" ],
+        "Imagem": "\\img\\Personagens\\Marceline.png"
+    },
+    {
+        "Nome": "Rei Gelado",
+        "Descricao": "Um velho solitário na qual tem costume de sequestar as princesas da terra de Ooo e forçá-las a se casarem com ele. Seu nome verdadeiro é Simon, no entanto, devido a magia de sua coroa, Simon acabou tendo perdas de memória e conseguindo poderes de gelo",
+        "Categoria": [ "Reino Gelado", "Mágico" ],
+        "Imagem":"\\img\\Personagens\\ReiGelado.webp"
+    },
+    {
+        "Nome": "Gunter",
+        "Descricao": "Gunter é o mascote preferido e o pinguim mais próximo do Rei Gelado. Gunter gosta de quebrar objetos de vidro, comer meias e bugunçar o quarto do Rei Gelado",
+        "Categoria": [ "Reino Gelado" ],
+        "Imagem":"\\img\\Personagens\\Gunter.png"
+    },
+    {
+        "Nome": "Dona Tromba",
+        "Descricao": "Dona Tromba uma elefanta idosa e que adora colher e fazer tortas de maçã, também considerada amiga de Finn e Jake",
+        "Categoria": [ "Outros" ],
+        "Imagem":"\\img\\Personagens\\DonaTromba.webp"
+    },
+    {
+        "Nome": "Golb",
+        "Descricao": "Uma entidade cósmica e reconhecido como a personificação do caos, sendo considerado um dos seres mais poderosos do universo",
+        "Categoria": [ "Entidade Cósmica" ],
+        "Imagem":"\\img\\Personagens\\Golb.webp"
+    },
+    {
+        "Nome": "Lich",
+        "Descricao": "Uma entidade cósmica que se originou através do cometa catalisador que atingiu o planeta Terra. Reconhecido como a personificação do caos e tem como principal objetivo destruir a vida no multiverso",
+        "Categoria": [ "Entidade Cósmica" ],
+        "Imagem":"\\img\\Personagens\\Lich.webp"
+    },
+    {
+        "Nome": "Homem mágico",
+        "Descricao": "Tem poderes de bruxo no qual usa para se divertir com o sofrimento de pessoas e animais",
+        "Categoria": [ "Entidade Cósmica", "Mágico" ],
+        "Imagem":"\\img\\Personagens\\MagicMan.webp"
+    }
+]

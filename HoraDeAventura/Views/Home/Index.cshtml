@@ -38,7 +38,7 @@
                 @foreach (var Personagem in Model)
                 {
                     <!-- Card Personagem - Inicio -->
-                    <div class="col">
+                    <div class="col" onclick="window.location = '/Home/Details/@Personagem.Nome'">
                         <div class="card shadow-sm cursor-pointer Personagens Principais" onclick="GetInfo(001)">
                             <img src="@Personagem.Imagem" class="card-img-top" width="100%" height="300" alt="@Personagem.Nome" />
                             <div class="card-body">

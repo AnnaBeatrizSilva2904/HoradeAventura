@@ -1,6 +1,6 @@
 namespace HoraDeAventura.Models;
 
-public class Personagens
+public class Personagem
 {
     public string Nome { get; set; }
     public string Descricao { get; set; }

@@ -16,41 +16,41 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        List<Personagem> Personagens = [];
-        using (StreamReader leitor = new("Data\\Personagens.json"))
-        {
-            string dados = leitor.ReadToEnd();
-            Personagens = JsonSerializer.Deserialize<List<Personagem>>(dados);
-        }
-        List<Categoria> Categorias = [];
-        using (StreamReader leitor = new("Data\\Categorias.json"))
-        {
-            string dados = leitor.ReadToEnd();
-            Categorias = JsonSerializer.Deserialize<List<Categoria>>(dados);
-        }
-        ViewData["Categorias"] = Categorias;
+        List<Personagem> Personagens = GetPersonagens();
+        List<Categoria> categorias = GetCategorias();
+        ViewData["Categorias"] = categorias;        
         return View(Personagens);
     }
 
     public IActionResult Details(int id)
     {
-        List<Personagem> Personagens = [];
+        List<Personagem> Personagens = GetPersonagens();
+        List<Categoria> categorias = GetCategorias();
+        DetailsVM details = new(){
+            Categorias = categorias,
+            Atual = Personagens.FirstOrDefault(p => p.Id == id),
+            Anterior = Personagens.OrderByDescending(p => p.Id == id).FirstOrDefault(p => p.Id < id),
+            Proximo = Personagens.OrderBy(p => p.Id == id).FirstOrDefault(p => p.Id > id),
+        };
+        return View(details);
+    }
+
+    private List<Personagem> GetPersonagens()
+    {
         using (StreamReader leitor = new("Data\\Personagens.json"))
         {
             string dados = leitor.ReadToEnd();
-            Personagens = JsonSerializer.Deserialize<List<Personagem>>(dados);
+            return JsonSerializer.Deserialize<List<Personagem>>(dados);
         }
-        List<Categoria> Categorias = [];
+    }
+
+    private List<Categoria> GetCategorias()
+    {
         using (StreamReader leitor = new("Data\\Categorias.json"))
         {
             string dados = leitor.ReadToEnd();
-            Categorias = JsonSerializer.Deserialize<List<Categoria>>(dados);
+            return JsonSerializer.Deserialize<List<Categoria>>(dados);
         }
-        ViewData["Categorias"] = Categorias;
-        var Personagem = Personagens
-            .where(p => p.Numero == id)
-            .FirstOrDefault();
-        return View(Personagem);
     }
 
     public IActionResult Privacy()

@@ -2,78 +2,183 @@
     {
         "Id": 1,
         "Nome": "Finn",
-        "Descricao": "Finn o humano, protagonista da série Hora de Aventura. Finn um garoto de 17 anos, anda junto com seu amigo Jake procurando novas aventuras na terra de Ooo, lutando contra monstros e salvando vidas de pessoas inocentes",
+        "Descricao": " Finn o humano, protagonista da série Hora de Aventura. Finn um garoto de 17 anos, anda junto com seu amigo Jake procurando novas aventuras na terra de Ooo, lutando contra monstros e salvando vidas de pessoas inocentes",
         "Categoria": [ "Personagens principais" ],
-        "Imagem": "\\img\\Personagens\\Finn.webp"
+        "Imagem": "\\img\\Personagens\\Finn.png"
     },
     {
         "Id": 2,
         "Nome": "Jake, o cão",
-        "Descricao": "Um dos personagens principais da série e anda acompanhando seu amigo Finn. Jake é considerado um cão mágico, embora mostre ser infantil às vezes, Jake é um personagem maduro e sempre dando conselhos ao seu amigo Finn ao longo da série",
+        "Descricao": " Um dos personagens principais da série e anda acompanhando seu amigo Finn. Jake é considerado um cão mágico, embora mostre ser infantil às vezes, Jake é um personagem maduro e sempre dando conselhos ao seu amigo Finn ao longo da série",
         "Categoria": [ "Personagens principais" ],
-        "Imagem":"\\img\\Personagens\\Jake.webp"
+        "Imagem":"\\img\\Personagens\\Jake.png"
     },
     {
         "Id": 3,
         "Nome": "BMO",
-        "Descricao": "BMO, um vídeogame e computador criado por Moe, e que logo depois se tornou amigo de Finn e Jake",
+        "Descricao": " BMO, um vídeogame e computador criado por Moe, e que logo depois se tornou amigo de Finn e Jake",
         "Categoria": [ "Personagens principais" ],
-        "Imagem":"\\img\\Personagens\\BMO.webp"
+        "Imagem":"\\img\\Personagens\\BMO.png"
     },
     {
         "Id": 4,
         "Nome": "Princesa Jujuba",
-        "Descricao": "Princesa Jujuba é a encarnação do elemental de doce, além de ser a governante do Reino Doce tem um enorme amor pelos seus súditos doces",
+        "Descricao": " Princesa Jujuba é a encarnação do elemental de doce, além de ser a governante do Reino Doce tem um enorme amor pelos seus súditos doces",
         "Categoria": [ "Reino Doce", "Princesas" ],
         "Imagem":"\\img\\Personagens\\Jujuba.png"
     },
     {
         "Id": 5,
         "Nome": "Marceline",
-        "Descricao": "Considerada como a Rainha dos Vampiros, Marceline se torna amiga de Finn e Jake ao longo da série. Embora seja considerada uma vampira, Marceline não precisa se alimentar de sangue apenas de comidas que tenham a cor vermelha",
+        "Descricao": " Considerada como a Rainha dos Vampiros, Marceline se torna amiga de Finn e Jake ao longo da série. Embora seja considerada uma vampira, Marceline não precisa se alimentar de sangue apenas de comidas que tenham a cor vermelha",
         "Categoria": [ "Outros" ],
         "Imagem": "\\img\\Personagens\\Marceline.png"
     },
     {
         "Id": 6,
         "Nome": "Rei Gelado",
-        "Descricao": "Um velho solitário na qual tem costume de sequestar as princesas da terra de Ooo e forçá-las a se casarem com ele. Seu nome verdadeiro é Simon, no entanto, devido a magia de sua coroa, Simon acabou tendo perdas de memória e conseguindo poderes de gelo",
+        "Descricao": " Um velho solitário na qual tem costume de sequestar as princesas da terra de Ooo e forçá-las a se casarem com ele. Seu nome verdadeiro é Simon, no entanto, devido a magia de sua coroa, Simon acabou tendo perdas de memória e conseguindo poderes de gelo",
         "Categoria": [ "Reino Gelado", "Mágico" ],
-        "Imagem":"\\img\\Personagens\\ReiGelado.webp"
+        "Imagem":"\\img\\Personagens\\ReiGelado.png"
     },
     {
         "Id": 7,
         "Nome": "Gunter",
-        "Descricao": "Gunter é o mascote preferido e o pinguim mais próximo do Rei Gelado. Gunter gosta de quebrar objetos de vidro, comer meias e bugunçar o quarto do Rei Gelado",
+        "Descricao": " Gunter é o mascote preferido e o pinguim mais próximo do Rei Gelado. Gunter gosta de quebrar objetos de vidro, comer meias e bugunçar o quarto do Rei Gelado",
         "Categoria": [ "Reino Gelado" ],
         "Imagem":"\\img\\Personagens\\Gunter.png"
     },
     {
         "Id": 8,
         "Nome": "Dona Tromba",
-        "Descricao": "Dona Tromba uma elefanta idosa e que adora colher e fazer tortas de maçã, também considerada amiga de Finn e Jake",
+        "Descricao": " Dona Tromba uma elefanta idosa e que adora colher e fazer tortas de maçã, também considerada amiga de Finn e Jake",
         "Categoria": [ "Outros" ],
         "Imagem":"\\img\\Personagens\\DonaTromba.png"
     },
     {
         "Id": 9,
         "Nome": "Golb",
-        "Descricao": "Uma entidade cósmica e reconhecido como a personificação do caos, sendo considerado um dos seres mais poderosos do universo",
+        "Descricao": " Uma entidade cósmica e reconhecido como a personificação do caos, sendo considerado um dos seres mais poderosos do universo",
         "Categoria": [ "Entidade Cósmica" ],
-        "Imagem":"\\img\\Personagens\\Golb.webp"
+        "Imagem":"\\img\\Personagens\\Golb.png"
     },
     {
         "Id": 10,
         "Nome": "Lich",
-        "Descricao": "Uma entidade cósmica que se originou através do cometa catalisador que atingiu o planeta Terra. Reconhecido como a personificação do caos e tem como principal objetivo destruir a vida no multiverso",
+        "Descricao": " Uma entidade cósmica que se originou através do cometa catalisador que atingiu o planeta Terra. Reconhecido como a personificação do caos e tem como principal objetivo destruir a vida no multiverso",
         "Categoria": [ "Entidade Cósmica" ],
         "Imagem":"\\img\\Personagens\\Lich.webp"
     },
     {
         "Id": 11,
         "Nome": "Homem mágico",
-        "Descricao": "Tem poderes de bruxo no qual usa para se divertir com o sofrimento de pessoas e animais",
+        "Descricao": " Tem poderes de bruxo no qual usa para se divertir com o sofrimento de pessoas e animais",
         "Categoria": [ "Entidade Cósmica", "Mágico" ],
         "Imagem":"\\img\\Personagens\\MagicMan.webp"
+    },
+    {
+        "Id": 12,
+        "Nome": "Sr.Bolinho",
+        "Descricao": " O Senhor Bolinho é um dos habitantes do Reino Doce, ele é um bolinho com creme de baunilha e granulados azuis por cima. Seu corpo está envolto em um papel de embrulho azul. Seus membros são laranja e são fortes fisicamente",
+        "Categoria": ["Reino Doce"],
+        "Imagem":"\\img\\Personagens\\Bolinho.png"
+    },
+    {
+        "Id": 13,
+        "Nome": "Princesa Cachorro Quente",
+        "Descricao": " Princesa do Reino Cachorro Quente",
+        "Categoria": ["Princesas"],
+        "Imagem":"\\img\\Personagens\\CachorroQuente.png"
+    },
+    {
+        "Id": 14,
+        "Nome": "Princesa Café da Manhã",
+        "Descricao": " Ela é a governante do Reino Café da Manhã e irmã da Princesa Torrada e da Princesa Strudel",
+        "Categoria": ["Princesas"],
+        "Imagem":"\\img\\Personagens\\CafeManha.png"
+    },
+    {
+        "Id": 15,
+        "Nome": "Canelinha",
+        "Descricao": " Canelinha era um cidadão do Reino Doce, um dos menos inteligentes, ele era considerado meio pancada pela Princesa Jujuba. Canelinha é amigo de Finn e Jake, e atualmente o braço direito da Princesa de Fogo",
+        "Categoria": ["Reino Doce"],
+        "Imagem":"\\img\\Personagens\\Canelinha.png"
+    },
+    {
+        "Id": 16,
+        "Nome": "Princesa Caroço",
+        "Descricao": " A Princesa Caroço é uma princesa que flutua como nuvem e é da dimensão da Terra do Caroço, lugar habitado por pessoas Encaroçadas. Ela é como as pessoas encaroçadas em geral. Ela é metida, rude e mal educada",
+        "Categoria": ["Princesas"],
+        "Imagem":"\\img\\Personagens\\Caroco.png"
+    },
+    {
+        "Id": 17,
+        "Nome": "Guardas Chicletes",
+        "Descricao": " Os Guardiões de Chiclete são duas estátuas gigantes que ficam nas extremidades do Reino Doce. Quando o reino é atacado, eles são ativados",
+        "Categoria": ["Reino Doce"],
+        "Imagem":"\\img\\Personagens\\Chiclete.png"
+    },
+    {
+        "Id": 18,
+        "Nome": "Coruja cósmica",
+        "Descricao": " Uma criatura misteriosa que ninguém sabe ao certo o que ela realmente é",
+        "Categoria": ["Entidade Cósmica"],
+        "Imagem":"\\img\\Personagens\\Coruja.png"
+    },
+    {
+        "Id": 19,
+        "Nome": "Princesa Frutinhas",
+        "Descricao": " Princesa Frutinhas é uma princesa recorrente de Hora de Aventura. Ela governa o Reino Frutinhas",
+        "Categoria": ["Princesas"],
+        "Imagem":"\\img\\Personagens\\Frutinha.png"
+    },
+    {
+        "Id": 20,
+        "Nome": "Princesa Gosminha",
+        "Descricao": " A Princesa Gosminha é uma personagem secundária em Hora de Aventura. Ela é a princesa do Reino da Gosma como mostrado em (Jogos de Amor)",
+        "Categoria":["Princesas"],
+        "Imagem":"\\img\\Personagens\\Gosma.png"
+    },
+    {
+        "Id": 21,
+        "Nome": "Guarda banana",
+        "Descricao": " A Guarda Banana é um grupo de pessoas doces que mantém a ordem e segurança no Reino Doce. A Guarda Banana sempre aparecem em pares antes do episódio (Princesa Biscoito), mas é claro que há um grande número de guardas de banana que parecem idênticos uns aos outros.",
+        "Categoria":["Reino Doce"],
+        "Imagem":"\\img\\Personagens\\Guarda.png"
+    },
+    {
+        "Id": 22,
+        "Nome": "Lady Íris",
+        "Descricao": " Lady Íris é a leal companheira da Princesa Jujuba, uma iriscórnio que fala coreano. Ela mostra gostar de viola como visto no episódio piloto, onde ela conhece Jake. Assim como seu povo, ela tem poderes de mutação de cor e, como seus pais, adora cães, diferente do seu povo, pois as duas raças têm lutado ao longo da Dimensão Cristal durante séculos. Lady Íris é a esposa de Jake. Os dois, quando se conheceram, se interessaram um pelo outro graças ao amor dos dois pela viola. Tiveram filhos que cresciam rápido.",
+        "Categoria":["Outros"],
+        "Imagem":"\\img\\Personagens\\Iris.png"
+    },
+    {
+        "Id": 23,
+        "Nome": "LimãoGrab",
+        "Descricao": " Conde de Limãograb foi criado pela Princesa Jujuba, para que ele à substituísse quando ela não pudesse mais reinar. Limãograb foi a primeira experiência de Princesa Jujuba que deu errado, como visto em (Jovem Demais). No mesmo episódio, quando a Princesa Jujuba estava com 13 anos e é incapacitada de reinar, Limãograb tomou seu lugar para governar o Reino Doce. Ele também governa um reino, o Condado de Limãograb. Em todos os episódios que ele aparece, é possível perceber que seu temperamento é (alto), com altos níveis de raiva e ódio.",
+        "Categoria":["Outros"],
+        "Imagem":"\\img\\Personagens\\LimaoGrab.png"
+    },
+    {
+        "Id": 24,
+        "Nome": "Mordomo Menta",
+        "Descricao": " Mordomo Menta (ocasionalmente referido como Mentinha) é um personagem recorrente de Hora de Aventura. Ele é um habitante do Reino Doce, um mago das trevas e um servente leal a Princesa Jujuba.",
+        "Categoria":["Reino Doce", "Mágico"],
+        "Imagem":"\\img\\Personagens\\Mordomo.png"
+    },
+    {
+        "Id": 25,
+        "Nome": "Prismo",
+        "Descricao": " Prismo é uma entidade cósmica manifestada pelos sonhos de um idoso que vive no centro do Multiverso que pode realizar desejos. Suas habilidades são poderosas o suficiente para alterar linhas do tempo, criar ou destruir dimensões, etc. No entanto, seus poderes tem limitações quando se trata de entidades mais poderosas, como GOLB, e se seu pedido não for (extremamente específico), os desejos talvez não ocorram como o planejado.",
+        "Categoria":["Entidade Cósmica"],
+        "Imagem":"\\img\\Personagens\\Prismo.png"
+    },
+    {
+        "Id": 26,
+        "Nome": "Ricardio",
+        "Descricao": " Ricardio é o coração do Rei Gelado, que após tomar uma poção para ter o controle do coração da Princesa Jujuba, a formula deu errado e o coração dele começou a ter vida.",
+        "Categoria":["Outros"],
+        "Imagem":"\\img\\Personagens\\Ricardio.png"
     }
 ]

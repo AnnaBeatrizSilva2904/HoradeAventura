@@ -29,8 +29,8 @@ public class HomeController : Controller
         DetailsVM details = new(){
             Categorias = categorias,
             Atual = Personagens.FirstOrDefault(p => p.Id == id),
-            Anterior = Personagens.OrderByDescending(p => p.Id == id).FirstOrDefault(p => p.Id < id),
-            Proximo = Personagens.OrderBy(p => p.Id == id).FirstOrDefault(p => p.Id > id),
+            Anterior = Personagens.OrderByDescending(p => p.Id).FirstOrDefault(p => p.Id < id),
+            Proximo = Personagens.OrderBy(p => p.Id).FirstOrDefault(p => p.Id > id),
         };
         return View(details);
     }

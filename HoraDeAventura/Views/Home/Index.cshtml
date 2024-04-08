@@ -21,7 +21,7 @@
                         </button>
                         @foreach (var Categoria in Categorias)
                         {
-                            <button id="btn-@Categoria.Nome" class="btn btn-sm my-2 text-white btn-filter"
+                            <button id="btn-@Categoria.Nome.Replace(' ', '-')" class="btn btn-sm my-2 text-white btn-filter"
                                 style="background-color:@Categoria.Cor" onclick="filter('@Categoria.Nome.Replace(' ', '-')')">
                                 @Categoria.Nome
                             </button>
